@@ -9,11 +9,16 @@
 
 button{
     padding:5px;
-    margin:5px;
+    margin:5px 0px;
     background-color: green;
     color:white;
 }
-.container{
-    display:flex;
+body{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin:0
+}
+.container{
+    text-align: center;
 }
