@@ -1,0 +1,19 @@
+.green-bold{
+    color:green;
+    font-weight:bold;
+}
+
+.green{
+    color:green;
+}
+
+button{
+    padding:5px;
+    margin:5px;
+    background-color: green;
+    color:white;
+}
+.container{
+    display:flex;
+    align-items: center;
+}

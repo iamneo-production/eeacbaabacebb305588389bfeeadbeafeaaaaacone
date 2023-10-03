@@ -15,7 +15,7 @@ function applyDiscount() {
     }
     document.getElementById("discountedAmount").innerHTML = "Discounted Amount: $"+discountedAmount.toFixed(2)
     if(totalAmount>7500){
-        document.getElementById("discountedAmount").color="green-bold"
+        document.getElementById("discountedAmount").className="green-bold"
 
     }
     else if(totalAmount>5000){
