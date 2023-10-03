@@ -7,8 +7,23 @@ function applyDiscount() {
     else if (totalAmount >= 5001 && totalAmount <= 7500) {
         discountedAmount = totalAmount - (totalAmount * 0.10)
     }
-    if (totalAmount > 7500) {
+    else if (totalAmount > 7500) {
         discountedAmount = totalAmount - (totalAmount * 0.15)
+    }
+    else{
+
+    }
+    document.getElementById("discountedAmount").innerHTML = "Discounted Amount: $"+discountedAmount.toFixed(2)
+    if(totalAmount>7500){
+        document.getElementById("discountedAmount").className="green-bold"
+
+    }
+    else if(totalAmount>5000){
+        document.getElementById("discountedAmount").className="green"
+
+    }
+    else{
+        
     }
 
 }
