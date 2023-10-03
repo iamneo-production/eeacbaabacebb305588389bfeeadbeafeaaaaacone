@@ -1,5 +1,5 @@
 function applyDiscount() {
-    var totalAmount = parseFloat(document.getElementById("amountInput"));
+    var totalAmount = parseFloat(document.getElementById("amountInput").value);
     var discountedAmount = totalAmount
     if (totalAmount >= 1000 && totalAmount <= 5000) {
         discountedAmount = totalAmount - (totalAmount * 0.05)
@@ -15,7 +15,7 @@ function applyDiscount() {
     }
     document.getElementById("discountedAmount").innerHTML = "Discounted Amount: $"+discountedAmount.toFixed(2)
     if(totalAmount>7500){
-        document.getElementById("discountedAmount").className="green-bold"
+        document.getElementById("discountedAmount").color="green-bold"
 
     }
     else if(totalAmount>5000){
