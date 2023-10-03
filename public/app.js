@@ -23,7 +23,7 @@ function applyDiscount() {
 
     }
     else{
-        
+        document.getElementById("discountedAmount").className=""
     }
 
 }

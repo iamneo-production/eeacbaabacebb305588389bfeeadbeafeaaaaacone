@@ -1,16 +1,16 @@
 .green-bold{
-    color:green;
+    color:rgb(0, 128, 0);
     font-weight:bold;
 }
 
 .green{
-    color:green;
+    color:rgb(0, 128, 0);
 }
 
 button{
     padding:5px;
     margin:5px 0px;
-    background-color: green;
+    background-color: rgb(0, 128, 0);
     color:white;
 }
 body{
